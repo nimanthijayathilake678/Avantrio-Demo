@@ -1,5 +1,8 @@
 package Sample.project.demo.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Translation {
     String storyId;
     String translation;

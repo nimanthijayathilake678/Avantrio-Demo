@@ -1,6 +1,10 @@
 package Sample.project.demo.model;
 
+import jakarta.persistence.Entity;
+
 import java.util.Date;
+
+@Entity
 
 public class EmojiStory {
     String id;

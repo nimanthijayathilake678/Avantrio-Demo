@@ -1,5 +1,8 @@
 package Sample.project.demo.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class TranslationRule {
     String[] pattern;
     String[] templates;
